@@ -167,6 +167,18 @@
   /* MAIN */
 
   /* TOPO */
+
+  .topo-do-port {
+    padding: 120px 2%;
+  }
+  .topo-do-port .espacamento {
+    width: 100%;
+  }
+
+  .topo-do-port .flex {
+    gap: 3rem;
+  }
+
   .text-topo {
     width: 100%;
   }
