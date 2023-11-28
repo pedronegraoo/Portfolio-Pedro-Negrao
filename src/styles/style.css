@@ -44,6 +44,7 @@ h1.titulo {
 
 h1.titulo span {
   color: #9a4444;
+  font-family: "Outfit";
 }
 
 /* HEADER */
@@ -279,10 +280,12 @@ h1.titulo span {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  text-align: center;
 }
 
 .text-topo h1 {
-  width: 90%;
+  width: 100%;
+  padding: 0 40px;
   line-height: 40px;
 }
 
@@ -455,6 +458,16 @@ h1.titulo span {
 .projetos {
   padding: 80px 4%;
   box-shadow: 0 0 40px 10px #ffffff25;
+}
+
+.subtitle-projeto-text-desktop,
+.subtitle-projeto-text-mobile {
+  text-align: center;
+  color: var(--color-white);
+}
+
+.subtitle-projeto-text-mobile {
+  display: none;
 }
 
 .grid-projetos {
@@ -721,6 +734,7 @@ footer {
 
 .content-left p {
   color: #fff;
+  text-decoration: none;
 }
 
 .redes-footer {
