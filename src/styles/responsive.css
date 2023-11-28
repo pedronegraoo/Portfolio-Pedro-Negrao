@@ -22,6 +22,10 @@
 
   /* TOPO */
 
+  .text-topo h1 {
+    line-height: 35px;
+  }
+
   .text-topo p {
     font-size: 1rem;
   }
@@ -168,6 +172,11 @@
 
   /* TOPO */
 
+  .text-topo h1 {
+    line-height: 30px;
+    padding: 0 10px;
+  }
+
   .topo-do-port {
     padding: 120px 2%;
   }
@@ -228,16 +237,21 @@
 
   /* PROJETOS */
 
+  .subtitle-projeto-text-desktop {
+    display: none;
+  }
+
+  .subtitle-projeto-text-mobile {
+    display: block;
+    font-size: 1.1rem;
+  }
+
   .content-redirecionar {
     width: 350px;
   }
 
   .redirecionar-empresarial .content-redirecionar {
     height: 450px;
-  }
-
-  .redirecionar-blog .content-redirecionar {
-    height: 380px;
   }
 
   .content-redirecionar h2 {
@@ -303,16 +317,12 @@
 
   /* PROJETOS */
 
+  .subtitle-projeto-text-mobile {
+    font-size: 1rem;
+  }
+
   .content-redirecionar {
     width: 310px;
-  }
-
-  .redirecionar-empresarial .content-redirecionar {
-    height: 450px;
-  }
-
-  .redirecionar-blog .content-redirecionar {
-    height: 380px;
   }
 
   .btn-site {
