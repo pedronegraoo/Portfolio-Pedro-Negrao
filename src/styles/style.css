@@ -39,8 +39,7 @@ h1.titulo {
   font-size: 40px;
   font-weight: bold;
   text-transform: uppercase;
-  /* font-size: 2.2rem; */
-  /* text-align: center; */
+  font-family: "Outfit";
 }
 
 h1.titulo span {
@@ -48,7 +47,6 @@ h1.titulo span {
 }
 
 /* HEADER */
-/* header-menu-fixo */
 
 .header-menu-fixo {
   width: 100%;
