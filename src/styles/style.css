@@ -479,7 +479,8 @@ h1.titulo span {
   place-items: center;
   grid-template-areas:
     "empresarial  nutri "
-    "previsao  blog";
+    "previsao  blog"
+    "relogio card";
 }
 
 #empresarial {
@@ -493,6 +494,12 @@ h1.titulo span {
 }
 #previsao {
   grid-area: previsao;
+}
+#relogio {
+  grid-area: relogio;
+}
+#card {
+  grid-area: card;
 }
 /* #projeto-futuro {
   grid-area: projeto-futuro;
@@ -522,6 +529,14 @@ h1.titulo span {
 
 #previsao {
   background: url(../img/Projeto-PrevisaoTempo.png) no-repeat center;
+}
+
+#relogio {
+  background: url(../img/Projeto-RelogioDigital.png) no-repeat center;
+}
+
+#card {
+  background: url(../img/ProjetoCard.png) no-repeat left;
 }
 
 /* #projeto-futuro {
@@ -587,6 +602,14 @@ h1.titulo span {
 }
 
 .redirecionar-previsao {
+  display: none;
+}
+
+.redirecionar-relogio {
+  display: none;
+}
+
+.redirecionar-card {
   display: none;
 }
 
@@ -705,6 +728,15 @@ h1.titulo span {
 
 .redirecionar-previsao h2 {
   color: #054877;
+}
+
+.redirecionar-relogio h2 {
+  color: #094431b9;
+}
+
+.redirecionar-card h2 {
+  color: hsl(278, 68%, 11%);
+  /* color: hsl(278, 94%, 30%); */
 }
 
 /* FOOTER */
