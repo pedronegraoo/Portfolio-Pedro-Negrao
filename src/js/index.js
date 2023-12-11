@@ -2,10 +2,14 @@ const empresarial = document.getElementById("empresarial");
 const blog = document.getElementById("blog");
 const nutriCalc = document.getElementById("nutri");
 const previsao = document.getElementById("previsao");
+const relogio = document.getElementById("relogio");
+const card = document.getElementById("card");
 const menuEmpresarial = document.querySelector(".redirecionar-empresarial");
 const menuNutri = document.querySelector(".redirecionar-nutri");
 const menuBlog = document.querySelector(".redirecionar-blog");
 const menuPrevisao = document.querySelector(".redirecionar-previsao");
+const menuRelogio = document.querySelector(".redirecionar-relogio");
+const menuCard = document.querySelector(".redirecionar-card");
 const overlay = document.querySelector(".overlay-projetos");
 
 // ABRIR MENU DOS PROJETOS
@@ -30,6 +34,16 @@ previsao.addEventListener("click", () => {
   menuPrevisao.classList.add("active");
 });
 
+relogio.addEventListener("click", () => {
+  overlay.style.display = "block";
+  menuRelogio.classList.add("active");
+});
+
+card.addEventListener("click", () => {
+  overlay.style.display = "block";
+  menuCard.classList.add("active");
+});
+
 // FECHAR MENU PROJETOS
 
 menuEmpresarial.addEventListener("click", () => {
@@ -52,11 +66,23 @@ menuPrevisao.addEventListener("click", () => {
   overlay.style.display = "none";
 });
 
+menuRelogio.addEventListener("click", () => {
+  menuRelogio.classList.remove("active");
+  overlay.style.display = "none";
+});
+
+menuCard.addEventListener("click", () => {
+  menuCard.classList.remove("active");
+  overlay.style.display = "none";
+});
+
 overlay.addEventListener("click", () => {
   menuEmpresarial.classList.remove("active");
   menuNutri.classList.remove("active");
   menuBlog.classList.remove("active");
   menuPrevisao.classList.remove("active");
+  menuRelogio.classList.remove("active");
+  menuCard.classList.remove("active");
   overlay.style.display = "none";
 });
 
