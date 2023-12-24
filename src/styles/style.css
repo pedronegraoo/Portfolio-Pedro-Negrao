@@ -412,25 +412,32 @@ h1.titulo span {
 }
 
 #html i:hover {
-  color: #dd4701;
+  /* color: #dd4701; */
+  color: #e54d26;
 }
 #css i:hover {
   color: #4851d6d7;
+  /* color: #3d8fc6; */
 }
 #java i:hover {
-  color: #fcf812bd;
+  /* color: #fcf812bd; */
+  color: #f0db4f;
 }
 #typescript i:hover {
-  color: #0f4fffdc;
+  /* color: #0f4fffdc; */
+  color: #007acc;
 }
 #git i:hover {
-  color: #f8570ce5;
+  /* color: #f8570ce5; */
+  color: #f34f29;
 }
 #boot i:hover {
-  color: #5e0e5ebd;
+  /* color: #5e0e5ebd; */
+  color: #7e12f9;
 }
 #bulma i:hover {
-  color: #04f8ec;
+  /* color: #04f8ec; */
+  color: #00d1b2;
 }
 
 /* PROJETOS */
