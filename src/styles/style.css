@@ -427,9 +427,8 @@ h1.titulo span {
   /* color: #0f4fffdc; */
   color: #007acc;
 }
-#git i:hover {
-  /* color: #f8570ce5; */
-  color: #f34f29;
+#sass i:hover {
+  color: #cc6699;
 }
 #boot i:hover {
   /* color: #5e0e5ebd; */
@@ -438,6 +437,10 @@ h1.titulo span {
 #bulma i:hover {
   /* color: #04f8ec; */
   color: #00d1b2;
+}
+#git i:hover {
+  /* color: #f8570ce5; */
+  color: #f34f29;
 }
 
 /* PROJETOS */
