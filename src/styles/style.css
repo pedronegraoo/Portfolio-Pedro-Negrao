@@ -1,10 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Alice&family=Bodoni+Moda:opsz@6..96&family=Caprasimo&family=Inclusive+Sans&family=Lobster&family=Lobster+Two&family=Open+Sans:wght@300;500;700&family=Outfit:wght@300;400;600&family=Poppins:wght@100;400&family=Roboto+Slab:wght@100&family=Roboto:wght@100;400&display=swap");
 
 :root {
+  --color-white: #fff;
+  --color-black: #000;
   --color-green-background: #86a789;
   --color-red: #9a4444;
   --color-gray: #646464;
-  --color-white: #fff;
   --font-poppins: "Poppins";
 }
 
@@ -14,13 +15,14 @@
   box-sizing: border-box;
   font-family: var(--font-poppins);
   text-decoration: none;
+  scroll-behavior: smooth;
 }
 
 /* GLOBAL */
 
 .global {
   height: 100%;
-  background-color: #86a789;
+  background-color: var(--color-green-background);
 }
 
 .flex {
@@ -43,7 +45,7 @@ h1.titulo {
 }
 
 h1.titulo span {
-  color: #9a4444;
+  color: var(--color-red);
   font-family: "Outfit";
 }
 
@@ -97,7 +99,7 @@ h1.titulo span {
 }
 
 .navbar-desktop a {
-  color: #646464;
+  color: var(--color-gray);
   text-decoration: none;
 
   display: inline-block;
@@ -324,7 +326,7 @@ h1.titulo span {
 }
 
 .destaque {
-  color: #000;
+  color: var(--color-black);
   font-weight: bold;
 }
 
@@ -537,7 +539,7 @@ h1.titulo span {
   justify-content: center;
   align-items: center;
 
-  color: #fff;
+  color: var(--color-white);
   font-size: 24px;
   font-weight: bold;
 
@@ -708,7 +710,7 @@ h1.titulo span {
 footer {
   padding: 0 4%;
   height: 300px;
-  background-color: #000;
+  background-color: var(--color-black);
   box-shadow: 0 0 40px 10px #ffffff25;
 }
 
@@ -720,8 +722,8 @@ footer {
   width: 100%;
   /* width: 50%; */
   height: 260px;
-  padding-top: 60px;
-  padding-right: 10px;
+  /* padding-top: 60px;
+  padding-right: 10px; */
 
   display: flex;
   flex-direction: column;
@@ -730,9 +732,25 @@ footer {
   /* align-items: flex-end; */
 }
 
-.content-left p {
-  color: #fff;
+.content-contacts {
+  display: flex;
+  flex-direction: column;
+}
+
+.content-contacts a {
+  height: 1.7rem;
+  color: var(--color-white);
   text-decoration: none;
+
+  transition: all 0.2s;
+}
+
+.content-contacts a:hover {
+  color: var(--color-gray);
+}
+
+.content-contacts a p {
+  display: inline-block;
 }
 
 .redes-footer {
@@ -745,14 +763,13 @@ footer {
 }
 
 .redes-footer a i {
-  color: #fff;
+  color: var(--color-white);
   font-size: 1.5rem;
 
   transition: all 0.2s;
 }
 
 .redes-footer a i:hover {
-  color: var(--color-white);
   text-shadow: 0px 0px 8px #fafafade;
 }
 
@@ -771,7 +788,7 @@ footer {
 }
 
 .div-content-right p {
-  color: #fff;
+  color: var(--color-white);
 }
 
 .tag-footer {
