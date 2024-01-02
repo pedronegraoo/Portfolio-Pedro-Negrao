@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <!-- CSS -->
     <link rel="stylesheet" href="src/styles/style.css" />
     <link rel="stylesheet" href="src/styles/responsive.css" />
 
@@ -44,6 +45,7 @@
     <div class="global">
       <header>
         <div class="header-global">
+          <!-- MENU FIXO - DESKTOP -->
           <div class="header-menu-fixo">
             <div class="logo-nome">
               <a href="#">
@@ -78,6 +80,7 @@
             </div>
           </div>
 
+          <!-- MENU LATERAL - MOBILE -->
           <div class="menu-lateral-mobile">
             <div class="btn-abrir-menu-mobile">
               <i class="bi bi-list"></i>
@@ -101,6 +104,14 @@
                   <li><a href="#link-sobre">Sobre mim</a></li>
                   <li><a href="#link-habilidades">Habilidades</a></li>
                   <li><a href="#link-projetos">Projetos</a></li>
+                  <li>
+                    <a
+                      href="src/img/document/Curriculo Pedro Negrao.pdf"
+                      target="_blank"
+                    >
+                      <p>Currículo</p></a
+                    >
+                  </li>
                 </ul>
               </nav>
 
@@ -127,8 +138,7 @@
       </header>
 
       <main>
-        <div id="link-inicio"></div>
-        <section class="topo-do-port">
+        <section id="link-inicio" class="topo-do-port">
           <div class="espacamento">
             <div class="flex">
               <div class="img-topo">
@@ -145,8 +155,7 @@
           </div>
         </section>
 
-        <div id="link-sobre"></div>
-        <section class="sobre-mim">
+        <section id="link-sobre" class="sobre-mim">
           <div class="espacamento">
             <div class="flex">
               <div class="text-sobre">
@@ -181,8 +190,7 @@
           </div>
         </section>
 
-        <div id="link-habilidades"></div>
-        <section class="habilidades">
+        <section id="link-habilidades" class="habilidades">
           <div class="espacamento">
             <h1 class="titulo"><span>Tec</span>nologias.</h1>
 
@@ -238,8 +246,7 @@
           </div>
         </section>
 
-        <div id="link-projetos"></div>
-        <section class="projetos">
+        <section id="link-projetos" class="projetos">
           <div class="espacamento">
             <h1 class="titulo">Meus <span>Projetos.</span></h1>
             <h4 class="subtitle-projeto-text-desktop">
@@ -510,12 +517,22 @@
       <footer>
         <div class="content-footer">
           <div class="content-left">
-            <p>
-              <i class="bi bi-envelope-fill"></i> macedopedro117@yahoo.com.br
-            </p>
-            <!-- <p style="text-decoration: none; color: white">
-              <i class="bi bi-telephone-fill"></i>+55 (21) 97452-0580
-            </p> -->
+            <div class="content-contacts">
+              <a href="mailto:macedopedro117@yahoo.com.br">
+                <i class="bi bi-envelope-fill"></i>
+                <p>macedopedro117@yahoo.com.br</p></a
+              >
+
+              <a
+                href="src/img/document/Curriculo Pedro Negrao.pdf"
+                target="_blank"
+              >
+                <i class="bi bi-file-pdf-fill"></i>
+                <p>Currículo</p></a
+              >
+            </div>
+
+            <!-- <p><i class="bi bi-telephone-fill"></i>+55 (21) 97452-0580</p> -->
 
             <div class="redes-footer">
               <a href="https://github.com/pedronegraoo" target="_blank"
@@ -539,7 +556,7 @@
 
         <div class="tag-footer">
           <div>
-            2023 © Coded by
+            Copyright © 2023 - Coded by
             <a href="https://github.com/pedronegraoo" target="_blank">
               Pedro Negrão</a
             >
