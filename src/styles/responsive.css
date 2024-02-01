@@ -57,7 +57,37 @@
     display: block;
   }
 
-  /* MAIN */
+  /* MENU LATERAL */
+
+  .btn-abrir-menu-mobile i {
+    font-size: 30px;
+  }
+
+  .btn-fechar i {
+    font-size: 22px;
+  }
+
+  .logo-nome-menu-lateral {
+    gap: 0.5rem;
+  }
+
+  .logo-nome-menu-lateral a i {
+    font-size: 25px;
+  }
+
+  .logo-nome-menu-lateral p {
+    font-size: 1.4rem;
+  }
+
+  .nav-menu-mobile ul li a {
+    font-size: 18px;
+  }
+
+  .div-btn-contatos-menu-lateral a i {
+    font-size: 1.4rem;
+  }
+
+  /* MAIN
 
   /* TOPO */
   .topo-do-port .flex {
@@ -121,11 +151,11 @@
   /* MENU LATERAL */
 
   .btn-abrir-menu-mobile i {
-    font-size: 30px;
+    font-size: 25px;
   }
 
   .btn-fechar i {
-    font-size: 22px;
+    font-size: 20px;
   }
 
   .logo-nome-menu-lateral {
@@ -133,19 +163,20 @@
   }
 
   .logo-nome-menu-lateral a i {
-    font-size: 25px;
+    font-size: 20px;
   }
 
   .logo-nome-menu-lateral p {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
   }
 
   .nav-menu-mobile ul li a {
-    font-size: 18px;
+    font-size: 16px;
+    padding: 10px 8%;
   }
 
   .div-btn-contatos-menu-lateral a i {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
   }
 
   /* MAIN */
@@ -280,20 +311,32 @@
 
   /* MENU LATERAL */
 
+  .btn-abrir-menu-mobile i {
+    font-size: 23px;
+  }
+
+  .btn-fechar i {
+    font-size: 18px;
+  }
+
+  .logo-nome-menu-lateral {
+    gap: 0.5rem;
+  }
+
   .logo-nome-menu-lateral a i {
-    font-size: 22px;
+    font-size: 18px;
   }
 
   .logo-nome-menu-lateral p {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
   }
 
   .nav-menu-mobile ul li a {
-    font-size: 16px;
+    font-size: 14px;
   }
 
   .div-btn-contatos-menu-lateral a i {
-    font-size: 1.4rem;
+    font-size: 1.1rem;
   }
 
   /* MAIN */

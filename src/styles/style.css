@@ -132,7 +132,7 @@ h1.titulo span {
 /* MENU LATERAL */
 
 .menu-lateral-mobile {
-  display: none;
+  /* display: none; */
 }
 
 .btn-abrir-menu-mobile i {
@@ -164,7 +164,8 @@ h1.titulo span {
 }
 
 .btn-fechar {
-  padding: 20px 6%;
+  /* padding: 20px 6%; */
+  padding: 0 4%;
 }
 
 .btn-fechar i {
@@ -183,7 +184,6 @@ h1.titulo span {
   justify-content: center;
   align-items: center;
   gap: 1rem;
-  margin-bottom: 1rem;
 }
 
 .logo-nome-menu-lateral a i {
@@ -444,6 +444,9 @@ h1.titulo span {
   /* color: #f8570ce5; */
   color: #f34f29;
 }
+#react i:hover {
+  color: #61dafb;
+}
 
 /* PROJETOS */
 
@@ -472,6 +475,11 @@ h1.titulo span {
 
 .projetos .titulo {
   text-align: center;
+}
+
+#shop {
+  background-image: url(../img/projeto-shop-albuns.png);
+  transition: all 3s;
 }
 
 #empresarial {
@@ -576,6 +584,10 @@ h1.titulo span {
 }
 
 .redirecionar-card {
+  display: none;
+}
+
+.redirecionar-shop {
   display: none;
 }
 

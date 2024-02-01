@@ -1,15 +1,17 @@
 const empresarial = document.getElementById("empresarial");
-const blog = document.getElementById("blog");
+// const blog = document.getElementById("blog");
 const nutriCalc = document.getElementById("nutri");
 const previsao = document.getElementById("previsao");
 const basket = document.getElementById("basket");
 const card = document.getElementById("card");
+const shop = document.getElementById("shop");
 const menuEmpresarial = document.querySelector(".redirecionar-empresarial");
 const menuNutri = document.querySelector(".redirecionar-nutri");
-const menuBlog = document.querySelector(".redirecionar-blog");
+// const menuBlog = document.querySelector(".redirecionar-blog");
 const menuPrevisao = document.querySelector(".redirecionar-previsao");
 const menuBasket = document.querySelector(".redirecionar-basket");
 const menuCard = document.querySelector(".redirecionar-card");
+const menuShop = document.querySelector(".redirecionar-shop");
 const overlay = document.querySelector(".overlay-projetos");
 
 // ABRIR MENU DOS PROJETOS
@@ -19,10 +21,10 @@ empresarial.addEventListener("click", () => {
   menuEmpresarial.classList.add("active");
 });
 
-blog.addEventListener("click", () => {
-  overlay.style.display = "block";
-  menuBlog.classList.add("active");
-});
+// blog.addEventListener("click", () => {
+//   overlay.style.display = "block";
+//   menuBlog.classList.add("active");
+// });
 
 nutriCalc.addEventListener("click", () => {
   overlay.style.display = "block";
@@ -44,6 +46,11 @@ card.addEventListener("click", () => {
   menuCard.classList.add("active");
 });
 
+shop.addEventListener("click", () => {
+  overlay.style.display = "block";
+  menuShop.classList.add("active");
+});
+
 // FECHAR MENU PROJETOS
 
 menuEmpresarial.addEventListener("click", () => {
@@ -56,10 +63,10 @@ menuNutri.addEventListener("click", () => {
   overlay.style.display = "none";
 });
 
-menuBlog.addEventListener("click", () => {
-  menuBlog.classList.remove("active");
-  overlay.style.display = "none";
-});
+// menuBlog.addEventListener("click", () => {
+//   menuBlog.classList.remove("active");
+//   overlay.style.display = "none";
+// });
 
 menuPrevisao.addEventListener("click", () => {
   menuPrevisao.classList.remove("active");
@@ -76,13 +83,19 @@ menuCard.addEventListener("click", () => {
   overlay.style.display = "none";
 });
 
+menuShop.addEventListener("click", () => {
+  menuShop.classList.remove("active");
+  overlay.style.display = "none";
+});
+
 overlay.addEventListener("click", () => {
   menuEmpresarial.classList.remove("active");
   menuNutri.classList.remove("active");
-  menuBlog.classList.remove("active");
+  // menuBlog.classList.remove("active");
   menuPrevisao.classList.remove("active");
   menuBasket.classList.remove("active");
   menuCard.classList.remove("active");
+  menuShop.classList.remove("active");
   overlay.style.display = "none";
 });
 
