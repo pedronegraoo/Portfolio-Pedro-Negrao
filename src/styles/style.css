@@ -132,7 +132,7 @@ h1.titulo span {
 /* MENU LATERAL */
 
 .menu-lateral-mobile {
-  /* display: none; */
+  display: none;
 }
 
 .btn-abrir-menu-mobile i {
@@ -175,7 +175,7 @@ h1.titulo span {
 }
 
 .btn-fechar i:hover {
-  color: red;
+  color: #ff0000;
 }
 
 .logo-nome-menu-lateral {
@@ -482,6 +482,10 @@ h1.titulo span {
   transition: all 3s;
 }
 
+#conversor {
+  background: url(../img/projeto-conversor-moeda.png) no-repeat center;
+}
+
 #empresarial {
   background-image: url(../img/Projeto-Matriz-SWOT.png);
   transition: all 18s;
@@ -567,9 +571,9 @@ h1.titulo span {
   position: relative;
 }
 
-.redirecionar-blog {
+/* .redirecionar-blog {
   display: none;
-}
+} */
 
 .redirecionar-nutri {
   display: none;
@@ -583,11 +587,15 @@ h1.titulo span {
   display: none;
 }
 
-.redirecionar-card {
+/* .redirecionar-card {
+  display: none;
+} */
+
+.redirecionar-shop {
   display: none;
 }
 
-.redirecionar-shop {
+.redirecionar-conversor {
   display: none;
 }
 
@@ -613,7 +621,8 @@ h1.titulo span {
 
 .content-redirecionar {
   width: 500px;
-  height: 430px;
+  /* height: 430px; */
+  height: 470px;
   background-color: var(--color-white);
   border-radius: 1rem;
 
@@ -696,9 +705,9 @@ h1.titulo span {
   color: #352f44;
 }
 
-.redirecionar-blog h2 {
+/* .redirecionar-blog h2 {
   color: #193811;
-}
+} */
 
 .redirecionar-nutri h2 {
   color: #001c30;
@@ -712,9 +721,16 @@ h1.titulo span {
   color: #d47902da;
 }
 
-.redirecionar-card h2 {
-  color: hsl(278, 68%, 11%);
-  /* color: hsl(278, 94%, 30%); */
+/* .redirecionar-card h2 {
+  color: #21092f;
+} */
+
+.redirecionar-shop h2 {
+  color: #9a4444;
+}
+
+.redirecionar-conversor h2 {
+  color: #242424;
 }
 
 /* FOOTER */
