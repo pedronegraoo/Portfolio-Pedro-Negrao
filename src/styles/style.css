@@ -482,8 +482,14 @@ h1.titulo span {
   transition: all 3s;
 }
 
+#system {
+  background-image: url(../img/projeto-system-stock.png);
+  background-position: initial;
+}
+
 #conversor {
-  background: url(../img/projeto-conversor-moeda.png) no-repeat center;
+  background-image: url(../img/projeto-conversor-moeda.png);
+  background-position: center;
 }
 
 #empresarial {
@@ -571,10 +577,6 @@ h1.titulo span {
   position: relative;
 }
 
-/* .redirecionar-blog {
-  display: none;
-} */
-
 .redirecionar-nutri {
   display: none;
 }
@@ -587,9 +589,9 @@ h1.titulo span {
   display: none;
 }
 
-/* .redirecionar-card {
+.redirecionar-system {
   display: none;
-} */
+}
 
 .redirecionar-shop {
   display: none;
@@ -724,6 +726,10 @@ h1.titulo span {
 /* .redirecionar-card h2 {
   color: #21092f;
 } */
+
+.redirecionar-system h2 {
+  color: #131613;
+}
 
 .redirecionar-shop h2 {
   color: #9a4444;
